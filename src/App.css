@@ -1,7 +1,16 @@
 .app {
-  text-align: left;
-  font-family: "Bodoni MT", "Didot", serif;
   min-height: 100vh;
+
+  /* FLEXBOX FIX */
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* horizontal centering */
+  justify-content: center;  /* vertical centering */
+
+  text-align: center;
+  font-family: "Bodoni MT", "Didot", serif;
+  color: #ffffff;
+
   background-image: url(./images/10081437.jpg);
   background-size: cover;
   background-position: center;

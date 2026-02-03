@@ -31,8 +31,8 @@ export default function CountdownToDate({ targetDate }) {
   return (
     <div>
       <h1>
-        {timeLeft.days}d {timeLeft.hours}h{" "}
-        {timeLeft.minutes}m {timeLeft.seconds}s
+        {timeLeft.days} : {timeLeft.hours} : {" "}
+        {timeLeft.minutes} : {timeLeft.seconds} 
       </h1>
     </div>
   );
